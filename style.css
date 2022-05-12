@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navb{
+    display: flex;
+    size: 5%;
+    background-color: rgb(249, 255, 250); 
+    width: 100%;
+}
+.logo{
+  margin-top: 19px;
+    margin-left: 80px;
+    margin-right: 110px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.navb li{
+    margin: 25px 30px;
+    font-size: 22px;
+    list-style: none;
+   
+}
+.navb li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+.navb li a:hover {
+    color: brown;
+}
+.icn-t{
+    font-size: 35px;
+    margin: 23px 25px;
+    padding-left:30px ;
+    cursor: pointer;
+}
+.icn-t:hover{
+    color: brown;  
+}
+.fsec{
+  background-image: url(/1st.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat, repeat;
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+}
+.left{
+    position: relative;
+    color: aliceblue;
+    top: 30%;
+    left: 20%;
+  display: inline-block;
+}
+.left-2{
+    top: 65%;
+    left: 20%; 
+    position: absolute;
+}
+.left P{
+    margin: 10px 20px;
+    font-size: 45px;
+    color: #000;
+   
+}
+span{
+    color: rgb(216, 59, 59);
+}
+ .btn{
+   
+   margin: 10px 20px;
+   font-size: 25px;
+padding:10px 15px;
+background-color: green;
+border-radius: 30px;
+color:#fff ;
+}
+.btn2{
+    background-color:rgb(216, 59, 59) ;
+}
+.btn:hover{
+    cursor: pointer;
+    color: transparent;
+    color: #000;
+}
+.imgs{
+    display: flex;
+    height: 400px;
+    margin: 100px 40px;
+}
+.txt{
+    margin: 140px 40px;
+    text-align: left;
+  font-size: 25px;
+}
+.s-sec{
+    display: flex;
+    height: 100vh;
+}
+.txt button{
+    padding: 15px 25px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    margin-top: 10px;
+}
+.txt button:hover{
+  background-color: #000;
+}
+.box{
+    display: flex;
+    background-image: url(/indstry.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(17, 14, 14, 0.4);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+h2{
+    color: red;
+}
+.box div{
+text-align: center;
+margin: 200px 10px ;
+display: inline-block;
+color: rgb(8, 8, 8);
+background-color: rgb(243, 234, 234);
+border-radius: 20px;
+padding: 60px 20px;
+}
+.box div h3{
+    font-size: 30px;
+    color: red;
+}
+.box p{
+font-size: 20px;
+}
+.box .one i{
+    font-size: 40px;
+}
+.box .two{
+    background-color: rgba(96, 96, 156, 0.924);
+}
+.box h4{
+    font-size: 49px;
+    position: absolute;
+    color: rgb(179, 62, 62);
+padding-top:50px ;
+padding-left: 36%;
+}
+.pp {
+   display: flex;
+   flex-direction: column;  
+}
+.o{
+    display: flex;
+  color: brown;
+  font-size: 28px;
+width: 50%;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: auto;
+
+}
+
+.t3{
+    font-size: 70px;
+    text-align: center;
+    color: brown;
+}
+.t{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+}
+.imgs2{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.a1{
+height: 5rem;
+width: 5rem;
+border-radius: 50%;
+}
+.a2{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    }
+.a3{
+    height: 5rem;
+width: 5rem;
+border-radius: 50%;
+ }
